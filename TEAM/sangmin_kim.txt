@@ -1,0 +1,14 @@
+Name : SangMin Kim
+Role :  Technical Manager
+Main Contribution : Gamestate, Maps, Timer, Collision
+Files Worked : 	
+	Apply_Two_Map.cpp
+	Collision_Control.cpp
+	Game_State.cpp
+	GameMap_Count.cpp
+	GameMap_Position.cpp
+	main.cpp
+	Timer.cpp
+
+Personal Notes : I got to know a lot of new things while coding.  It was a good experience.
+	

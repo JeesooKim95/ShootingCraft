@@ -1,0 +1,24 @@
+Name : JeeSoo Kim
+Role :  Producer
+Main Contribution : Console, Enemy, Boss, Ship upgrade(Shipmap)
+Files Worked : 
+	Boss_Bullet_Move.cpp
+	Boss_Move.cpp
+	Boss_Move_Phase2.cpp
+	Boss_Shoot.cpp
+	Determine_Dir.cpp
+	Free_Allocated_Data.cpp
+	Console.cpp
+	Enemy_Determine_Dir.cpp
+	Enemy_Init.cpp
+	Enemy_Init2.cpp
+	Enemy_Move.cpp
+	GameMap_Move.cpp
+	Phase3_Enemy_Init.cpp
+	ShipMap_Display.cpp
+	ShipMap_InsertBody.cpp
+	ShipMap_InsertHead.cpp
+	ShipMap_InsertWeapon.cpp
+
+Personal Notes : 
+	It was challenging, but worthy. I learned many new things and really had fun working on this project.

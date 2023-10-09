@@ -1,0 +1,393 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Ship_Map">
+      <UniqueIdentifier>{13abcfa0-7f44-4685-9d68-c4ebc5ef2067}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game_Map">
+      <UniqueIdentifier>{619bc16b-8397-4788-96cc-c97fe9d69945}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Cursor">
+      <UniqueIdentifier>{2654c1eb-ed05-45b4-a4e4-1099abc31840}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Maps">
+      <UniqueIdentifier>{6e4c447d-7e1c-40dd-8ef8-abcd2aaaa42c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Enemy_Init">
+      <UniqueIdentifier>{d569c4b6-60d6-407c-b9e9-0d0fdc233657}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Enemy_Move">
+      <UniqueIdentifier>{b0bf2223-d5ba-464e-b124-1549e0865009}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Bullet">
+      <UniqueIdentifier>{5dbec848-af76-4129-b22b-7c04563cb747}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\User_Control">
+      <UniqueIdentifier>{2b27a9c1-3207-4b8d-b304-f3404ea48355}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Effects">
+      <UniqueIdentifier>{237a3402-fcf0-4cb7-88ad-a50c31f0a0a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Save">
+      <UniqueIdentifier>{4763fb4d-2ead-4382-8f4d-bdc1fc72f26c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Item">
+      <UniqueIdentifier>{ef79cc30-6ee3-4b18-ba9c-40632234cb20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Sound">
+      <UniqueIdentifier>{b3d29c9f-edf1-46c5-9699-f393925c9723}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Game_State.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision_Control.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ShipMap_InsertWeapon.cpp">
+      <Filter>Source Files\Ship_Map</Filter>
+    </ClCompile>
+    <ClCompile Include="ShipMap_Display.cpp">
+      <Filter>Source Files\Ship_Map</Filter>
+    </ClCompile>
+    <ClCompile Include="ShipMap_InsertBody.cpp">
+      <Filter>Source Files\Ship_Map</Filter>
+    </ClCompile>
+    <ClCompile Include="ShipMap_InsertHead.cpp">
+      <Filter>Source Files\Ship_Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Init_ShipMap.cpp">
+      <Filter>Source Files\Ship_Map</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMap_Clear.cpp">
+      <Filter>Source Files\Game_Map</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMap_Control.cpp">
+      <Filter>Source Files\Game_Map</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMap_Count.cpp">
+      <Filter>Source Files\Game_Map</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMap_Display.cpp">
+      <Filter>Source Files\Game_Map</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMap_Move.cpp">
+      <Filter>Source Files\Game_Map</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMap_Position.cpp">
+      <Filter>Source Files\Game_Map</Filter>
+    </ClCompile>
+    <ClCompile Include="SetCursor_Position.cpp">
+      <Filter>Source Files\Cursor</Filter>
+    </ClCompile>
+    <ClCompile Include="SetCursor_Contorl.cpp">
+      <Filter>Source Files\Cursor</Filter>
+    </ClCompile>
+    <ClCompile Include="Apply_Two_Map.cpp">
+      <Filter>Source Files\Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy_Init4.cpp">
+      <Filter>Source Files\Enemy_Init</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy_Init.cpp">
+      <Filter>Source Files\Enemy_Init</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy_Init2.cpp">
+      <Filter>Source Files\Enemy_Init</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy_Init3.cpp">
+      <Filter>Source Files\Enemy_Init</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy_Move.cpp">
+      <Filter>Source Files\Enemy_Move</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy_Move_Phase_1_first.cpp">
+      <Filter>Source Files\Enemy_Move</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet_Move.cpp">
+      <Filter>Source Files\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Bomb.cpp">
+      <Filter>Source Files\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="User_Choice.cpp">
+      <Filter>Source Files\User_Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Console.cpp">
+      <Filter>Source Files\User_Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>Source Files\User_Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Overlapped_Control.cpp">
+      <Filter>Source Files\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy_Determine_Dir.cpp">
+      <Filter>Source Files\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Determine_Dir.cpp">
+      <Filter>Source Files\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Ship_Shoot_Bullet.cpp">
+      <Filter>Source Files\User_Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Phase3_Enemy_Init.cpp">
+      <Filter>Source Files\Enemy_Init</Filter>
+    </ClCompile>
+    <ClCompile Include="Rid_Bullet_Col.cpp">
+      <Filter>Source Files\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="Particle.cpp">
+      <Filter>Source Files\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="MapStatus.cpp">
+      <Filter>Source Files\Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Source Files\User_Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Create_Ship_XY.cpp">
+      <Filter>Source Files\Save</Filter>
+    </ClCompile>
+    <ClCompile Include="Free_Allocated_Data.cpp">
+      <Filter>Source Files\Save</Filter>
+    </ClCompile>
+    <ClCompile Include="Item_Move.cpp">
+      <Filter>Source Files\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound_Manager.cpp">
+      <Filter>Source Files\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss_Init.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss_Move.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss_Shoot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss_Bullet_Move.cpp">
+      <Filter>Source Files\Ship_Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss_Move_Phase2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HowToPlay.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Start_Screen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game_Logo_Init.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Tutorial.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Bef_Boss_Clean.cpp">
+      <Filter>Source Files\Enemy_Move</Filter>
+    </ClCompile>
+    <ClCompile Include="GameClear.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game_Control.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy_Move_Phase_1_second.cpp">
+      <Filter>Source Files\Enemy_Move</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Apply_Two_Map.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Determine_Dir.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game_State.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMap_Display.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Init_ShipMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MapStatus.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SetCursor_Move.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SetCursor_Position.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Ship_Status.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ShipMap_Display.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ShipMap_InsertBody.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ShipMap_InsertHead.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ShipMap_InsertWeapon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMap_Count.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMap_Position.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Create_Ship_XY.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Free_Allocated_Data.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMap_Control.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMap_Move.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Ship_Shoot_Bullet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet_Move.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy_Part.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy_Init.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy_Determine_Dir.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision_Control.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy_Move.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Rid_Bullet_Col.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Particle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy_Init2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Overlapped_Control.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy_Init3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy_Init4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy_Move_Phase_1_second.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy_Move_Phase_1_first.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Console.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Phase3_Enemy_Init.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMap_Clear.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="User_Choice.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Item_Move.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Bomb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound_Manager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss_Init.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss_Move.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss_Shoot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss_Bullet_Move.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss_Move_Phase2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HowToPlay.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Start_Screen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Tutorial.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Bef_Boss_Clean.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game_Control.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\fmod.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\fmod_errors.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

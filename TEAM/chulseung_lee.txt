@@ -1,0 +1,26 @@
+Name: Chulseung Lee
+
+Role: Sound Director
+
+Main Contributions: Enemy, GameMap, Sound(fmod), Tutorial
+
+List of Files which i worked:
+	Enemy_Init3.cpp
+	Enemy_Init4.cpp
+	Enemy_Move_Phase_1_first.cpp
+	Enemy_Move_Phase_1_second.cpp
+	MapStatus.cpp
+	Bef_Boss_Clean.cpp
+	Game_Control.cpp
+	GameMap_Clear.cpp
+	GameMap_Control.cpp
+	Init_ShipMap.cpp
+	SetCursor_Contorl.cpp
+	SetCursor_Move.cpp
+	SetCursor_Position.cpp
+	Sound_Manager.cpp
+	Tutorial.cpp
+
+Personal Notes: 
+	I enjoyed working with my team members and I got to learn
+	how to use fmod.

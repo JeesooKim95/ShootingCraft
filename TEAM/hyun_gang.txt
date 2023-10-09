@@ -1,0 +1,27 @@
+Name: hyun gang
+
+Role: Designer
+
+Main Contributions: boss, logos, interface...
+
+List of Files which i worked:
+	Overlapped_Control.cpp  
+	Rid_Bullet_Col.cpp  
+	Ship_Shoot_Bullet.cpp   
+	Boss_Init.cpp   
+	Game_Clear.cpp  
+	Game_Logo_Init.cpp  
+	GameClear.cpp  
+	GameMap_Display.cpp   
+	GameOver.cpp  
+	HowToPlay.cpp  
+	Input.cpp  
+	Item_Move.cpp  
+	Particle.cpp  
+	Start_Screen.cpp  
+	User_Choice.cpp  
+	Bullet_Move.cpp  
+
+Personal Notes: 
+	It was time to realize the importance of teamwork.
+	And i gonna double check every works.

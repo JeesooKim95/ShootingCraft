@@ -1,0 +1,253 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Apply_Two_Map.cpp" />
+    <ClCompile Include="Bef_Boss_Clean.cpp" />
+    <ClCompile Include="Bomb.cpp" />
+    <ClCompile Include="Boss_Bullet_Move.cpp" />
+    <ClCompile Include="Boss_Init.cpp" />
+    <ClCompile Include="Boss_Move.cpp" />
+    <ClCompile Include="Boss_Move_Phase2.cpp" />
+    <ClCompile Include="Boss_Shoot.cpp" />
+    <ClCompile Include="Bullet_Move.cpp" />
+    <ClCompile Include="Collision_Control.cpp" />
+    <ClCompile Include="Console.cpp" />
+    <ClCompile Include="Create_Ship_XY.cpp" />
+    <ClCompile Include="Determine_Dir.cpp" />
+    <ClCompile Include="Enemy_Determine_Dir.cpp" />
+    <ClCompile Include="Enemy_Init.cpp" />
+    <ClCompile Include="Enemy_Init2.cpp" />
+    <ClCompile Include="Enemy_Init3.cpp" />
+    <ClCompile Include="Enemy_Init4.cpp" />
+    <ClCompile Include="Enemy_Move.cpp" />
+    <ClCompile Include="Enemy_Move_Phase_1_first.cpp" />
+    <ClCompile Include="Enemy_Move_Phase_1_second.cpp" />
+    <ClCompile Include="Free_Allocated_Data.cpp" />
+    <ClCompile Include="GameClear.cpp" />
+    <ClCompile Include="GameMap_Clear.cpp" />
+    <ClCompile Include="GameMap_Display.cpp" />
+    <ClCompile Include="GameMap_Control.cpp" />
+    <ClCompile Include="GameMap_Count.cpp" />
+    <ClCompile Include="GameMap_Move.cpp" />
+    <ClCompile Include="GameMap_Position.cpp" />
+    <ClCompile Include="GameOver.cpp" />
+    <ClCompile Include="Game_Control.cpp" />
+    <ClCompile Include="Game_Logo_Init.cpp" />
+    <ClCompile Include="Game_State.cpp" />
+    <ClCompile Include="HowToPlay.cpp" />
+    <ClCompile Include="Init_ShipMap.cpp" />
+    <ClCompile Include="Input.cpp" />
+    <ClCompile Include="Item_Move.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="MapStatus.cpp" />
+    <ClCompile Include="Overlapped_Control.cpp" />
+    <ClCompile Include="Particle.cpp" />
+    <ClCompile Include="Phase3_Enemy_Init.cpp" />
+    <ClCompile Include="Rid_Bullet_Col.cpp" />
+    <ClCompile Include="SetCursor_Contorl.cpp" />
+    <ClCompile Include="SetCursor_Position.cpp" />
+    <ClCompile Include="ShipMap_Display.cpp" />
+    <ClCompile Include="ShipMap_InsertBody.cpp" />
+    <ClCompile Include="ShipMap_InsertHead.cpp" />
+    <ClCompile Include="ShipMap_InsertWeapon.cpp" />
+    <ClCompile Include="Ship_Shoot_Bullet.cpp" />
+    <ClCompile Include="Sound_Manager.cpp" />
+    <ClCompile Include="Start_Screen.cpp" />
+    <ClCompile Include="Timer.cpp" />
+    <ClCompile Include="Tutorial.cpp" />
+    <ClCompile Include="User_Choice.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Apply_Two_Map.h" />
+    <ClInclude Include="Bef_Boss_Clean.h" />
+    <ClInclude Include="Bomb.h" />
+    <ClInclude Include="Boss_Bullet_Move.h" />
+    <ClInclude Include="Boss_Init.h" />
+    <ClInclude Include="Boss_Move.h" />
+    <ClInclude Include="Boss_Move_Phase2.h" />
+    <ClInclude Include="Boss_Shoot.h" />
+    <ClInclude Include="Bullet_Move.h" />
+    <ClInclude Include="Collision_Control.h" />
+    <ClInclude Include="Console.h" />
+    <ClInclude Include="Create_Ship_XY.h" />
+    <ClInclude Include="Determine_Dir.h" />
+    <ClInclude Include="Enemy_Determine_Dir.h" />
+    <ClInclude Include="Enemy_Init.h" />
+    <ClInclude Include="Enemy_Init2.h" />
+    <ClInclude Include="Enemy_Init3.h" />
+    <ClInclude Include="Enemy_Init4.h" />
+    <ClInclude Include="Enemy_Move.h" />
+    <ClInclude Include="Enemy_Move_Phase_1_first.h" />
+    <ClInclude Include="Enemy_Move_Phase_1_second.h" />
+    <ClInclude Include="Enemy_Part.h" />
+    <ClInclude Include="Free_Allocated_Data.h" />
+    <ClInclude Include="GameMap_Clear.h" />
+    <ClInclude Include="GameMap_Display.h" />
+    <ClInclude Include="GameMap_Control.h" />
+    <ClInclude Include="GameMap_Count.h" />
+    <ClInclude Include="GameMap_Move.h" />
+    <ClInclude Include="GameMap_Position.h" />
+    <ClInclude Include="GameOver.h" />
+    <ClInclude Include="Game_Control.h" />
+    <ClInclude Include="Game_State.h" />
+    <ClInclude Include="HowToPlay.h" />
+    <ClInclude Include="inc\fmod.hpp" />
+    <ClInclude Include="inc\fmod_errors.h" />
+    <ClInclude Include="Init_ShipMap.h" />
+    <ClInclude Include="Input.h" />
+    <ClInclude Include="Item.h" />
+    <ClInclude Include="Item_Move.h" />
+    <ClInclude Include="MapStatus.h" />
+    <ClInclude Include="Overlapped_Control.h" />
+    <ClInclude Include="Particle.h" />
+    <ClInclude Include="Phase3_Enemy_Init.h" />
+    <ClInclude Include="Rid_Bullet_Col.h" />
+    <ClInclude Include="SetCursor_Move.h" />
+    <ClInclude Include="SetCursor_Position.h" />
+    <ClInclude Include="ShipMap_Display.h" />
+    <ClInclude Include="ShipMap_InsertBody.h" />
+    <ClInclude Include="ShipMap_InsertHead.h" />
+    <ClInclude Include="ShipMap_InsertWeapon.h" />
+    <ClInclude Include="Ship_Shoot_Bullet.h" />
+    <ClInclude Include="Ship_Status.h" />
+    <ClInclude Include="Sound_Manager.h" />
+    <ClInclude Include="Start_Screen.h" />
+    <ClInclude Include="Timer.h" />
+    <ClInclude Include="Tutorial.h" />
+    <ClInclude Include="User_Choice.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{67B244C3-DD10-4849-B9D3-1A56E9AD39D1}</ProjectGuid>
+    <RootNamespace>Project9</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+    <ProjectName>ShootingCraft</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>$(SolutionDir)lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>fmod64_vc.lib;fmodL64_vc.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>$(SolutionDir)lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>fmod64_vc.lib;fmodL64_vc.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>$(SolutionDir)lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>fmod64_vc.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>$(SolutionDir)lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>fmod64_vc.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
